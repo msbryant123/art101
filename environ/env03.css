@@ -1,0 +1,27 @@
+h1{color:black;}
+
+p{color: rgb(45, 32, 22); font-size: medium;}
+
+html{background-image: url('Red-Barn.jpg'); background-size: cover;}
+
+.highlight_01 {background-color: rgb(246, 228, 228);}
+.page {
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    margin: 0 0 25px 0;
+}
+
+#top-section {
+    background: #ba3c3c;
+    padding: 20px;
+    border-left: 5px solid #000000;
+    flex: 1;
+}
+#main-section img{
+     width: 100px;
+    border-radius: 12px;
+}
+.top-section p {
+    font-size: 120%;
+}
